@@ -1,6 +1,7 @@
 import "./App.css";
 import CustomButton from "./components/button";
 import MovieList from "./components/movielist";
+import MovieTable from "./components/movietable";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <CustomButton />
       <br />
       <MovieList />
+      <br />
+      <MovieTable />
     </div>
   );
 }
