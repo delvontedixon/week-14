@@ -23,7 +23,7 @@ function MovieList() {
     <div className="CustomButton">
       List of movies
       {Listofmovies.map((movie, index) => (
-        <div key={index}>This is my movie</div>
+        <div key={index}>This is the Movie List Component</div>
       ))}
     </div>
   );

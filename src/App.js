@@ -1,5 +1,9 @@
 import "./App.css";
 import Movie from "./components/movie";
+import MovieList from "./components/movielist";
+import ReviewList from "./components/reviewlist";
+import Review from "./components/review";
+import ReviewForm from "./components/reviewform";
 
 function App() {
   return (
@@ -7,6 +11,14 @@ function App() {
       <h1>Week 14 React Assignment</h1>
       <br />
       <Movie />
+      <br />
+      <MovieList />
+      <br />
+      <ReviewList />
+      <br />
+      <Review />
+      <br />
+      <ReviewForm />
     </div>
   );
 }
