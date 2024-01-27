@@ -2,7 +2,7 @@
 
 function Review() {
   return (
-    <div className="App">
+    <div className="Review">
       <h2>Review Component</h2>
       <br />
     </div>

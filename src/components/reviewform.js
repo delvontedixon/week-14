@@ -2,7 +2,7 @@
 
 function ReviewForm() {
   return (
-    <div className="App">
+    <div className="Review Form">
       <h2>Review Form Component</h2>
       <br />
     </div>

@@ -2,7 +2,8 @@
 
 function Movie() {
   return (
-    <div className="movie">
+    <div className="Movie">
+      <h2> Movie Component</h2>
       <table class="table table-striped table-success">
         <thead>
           <tr>
