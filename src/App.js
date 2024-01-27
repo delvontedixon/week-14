@@ -4,7 +4,7 @@ import Movie from "./components/movie";
 function App() {
   return (
     <div className="App">
-      <h1>Movie Center</h1>
+      <h1>Week 14 React Assignment</h1>
       <br />
       <Movie />
     </div>

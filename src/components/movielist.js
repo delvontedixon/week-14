@@ -1,18 +1,20 @@
+/*MovieList: a container for all the Movie components and their data.*/
+
 let Listofmovies = [
   {
     id: 1,
-    moviename: "Echo",
-    movieactor: "Lebron",
+    moviename: "Iron Man",
+    movieactor: "Robert Downey",
   },
   {
     id: 2,
-    moviename: "Fly",
-    movieactor: "Mike",
+    moviename: "Ant Man",
+    movieactor: "Paul Rudd",
   },
   {
     id: 3,
-    moviename: "High",
-    movieactor: "James",
+    moviename: "Remember The Titans",
+    movieactor: "Denzel Washington",
   },
 ];
 
