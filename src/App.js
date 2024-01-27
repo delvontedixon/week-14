@@ -1,16 +1,12 @@
 import "./App.css";
-import CustomButton from "./components/button";
 import Movie from "./components/movie";
 
 function App() {
   return (
     <div className="App">
-      <h1>This is the Home Page</h1>
-      <CustomButton />
+      <h1>Movie Center</h1>
       <br />
       <Movie />
-      <br />
-      <MovieTable />
     </div>
   );
 }

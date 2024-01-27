@@ -4,22 +4,22 @@ function Movie() {
       <table class="table table-striped table-success">
         <thead>
           <tr>
-            <th scope="col">City</th>
-            <th scope="col">Date</th>
+            <th scope="col">Movie</th>
+            <th scope="col">Actor</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Fort Walton Beach, FL</td>
-            <td>May 5th</td>
+            <td>Iron Man</td>
+            <td>Robert Downey</td>
           </tr>
           <tr>
-            <td scope="row">Fort Campbell, KY</td>
-            <td>December 31st</td>
+            <td scope="row">Ant Man</td>
+            <td>Paul Rudd</td>
           </tr>
           <tr>
-            <td scope="row">Lexington, KY</td>
-            <td> June 26th</td>
+            <td scope="row">Remember The Titans</td>
+            <td>Denzel Washington</td>
           </tr>
         </tbody>
       </table>
