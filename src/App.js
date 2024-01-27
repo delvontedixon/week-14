@@ -1,7 +1,6 @@
 import "./App.css";
 import CustomButton from "./components/button";
-import MovieList from "./components/movielist";
-import MovieTable from "./components/movie";
+import Movie from "./components/movie";
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
       <h1>This is the Home Page</h1>
       <CustomButton />
       <br />
-      <MovieList />
+      <Movie />
       <br />
       <MovieTable />
     </div>

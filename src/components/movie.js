@@ -1,24 +1,30 @@
-function MovieTable() {
+function Movie() {
   return (
-    <table>
-      <tr>
-        <th>Movie</th>
-        <th>Actor</th>
-      </tr>
-      <tr>
-        <td>Echo</td>
-        <td>Lebron</td>
-      </tr>
-      <tr>
-        <td>Fly</td>
-        <td>Mike</td>
-      </tr>
-      <tr>
-        <td>High</td>
-        <td> James</td>
-      </tr>
-    </table>
+    <div className="movie">
+      <table class="table table-striped table-success">
+        <thead>
+          <tr>
+            <th scope="col">City</th>
+            <th scope="col">Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Fort Walton Beach, FL</td>
+            <td>May 5th</td>
+          </tr>
+          <tr>
+            <td scope="row">Fort Campbell, KY</td>
+            <td>December 31st</td>
+          </tr>
+          <tr>
+            <td scope="row">Lexington, KY</td>
+            <td> June 26th</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   );
 }
 
-export default MovieTable;
+export default Movie;
